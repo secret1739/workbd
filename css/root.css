@@ -1,0 +1,53 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Nunito Sans', sans-serif;
+  background: var(--whiteColor);
+}
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+/* common css */
+.btn{
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+  opacity: 0.5;
+}
+.deep-yellow-btn {
+  background: rgb(166, 133, 51);
+  background: radial-gradient(
+    circle,
+    rgba(166, 133, 51, 1) 0%,
+    rgba(250, 233, 194, 1) 0%,
+    rgba(166, 133, 51, 1) 100%
+  );
+  transition: all 0.3s ease;
+  color: var(--commonColor) !important;
+  font-weight: 800 !important;
+  text-shadow: 0.5px 0.5px #ffffff;
+  border-radius: 10px;
+}
+.deep-yellow-btn:hover{
+  opacity: 0.8;
+}
+
+
+/* root css */
+:root{
+  --whiteColor:#fff;
+  --grayHover:#f1f1f1;
+  --backColor:#000;
+  --navColor:#ffffff;
+  --commonColor:#051d40;
+  --contentColor:#011329;
+  --contentColorExtra:#bf7608;
+  --nameColor:#afc1d0;
+  --commonShadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.05)
+}

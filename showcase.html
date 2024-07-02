@@ -1,0 +1,664 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>showcase</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/show.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg p-0" >
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html"
+          ><img src="img/logo/logo.PNG"
+        /></a>
+        <button
+          class="navbar-toggler menu-line"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu"
+        >
+          <svg width="40" height="40" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse ps-2 ps-lg-4"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav me-auto mb-2 gap-lg-4 gap-1 mb-lg-0"
+            style="flex: none"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="service.html"
+                role="button"
+              >
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="coaching.html">PM COACHING</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pm-implementation.html"
+                    >PM IMPLEMENTATION</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="admin.html">PM ADMIN</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-togglec active" href="showcase.html" role="button">
+                Showcase
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="loreal.html">L’Oreal</a>
+                </li>
+                <li><a class="dropdown-item" href="merck.html">MERCk</a></li>
+                <li><a class="dropdown-item" href="ups.html">UPS</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="about.html" role="button">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="ceo.html">CEO MESSAGE</a>
+                </li>
+                <li><a class="dropdown-item" href="whyus.html">WHY US</a></li>
+                <li>
+                  <a class="dropdown-item" href="contact.html"
+                    >CONTACT US</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav request-metting ml-auto justify-content-end">
+          <li class="nav-item deep-yellow-btn">
+            <a class="nav-link" href="#">Request A metting</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- header end -->
+    <!-- banner start -->
+    <section class="banner">
+      <div class="container">
+        <!-- <div class="bdotted">
+            <img src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760683/images/648e808fee2fabd2a3188beeaef3ef80_tbwcw6.svg" alt="dotted">
+          </div> -->
+        <div class="row align-items-center justify-content-center brow">
+          
+          <div class="col-lg-6 col-md-10" data-aos="fade-right"  data-aos-duration="1500">
+            <div class="banner_text">
+              <h1>Experience our Success Across Diverse Industries.</h1>
+              <p>Experience our achievements and the ways we've assisted various industries with project management.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-11 col-md-10" data-aos="fade-left"  data-aos-duration="1500">
+            <div class="banner_video">
+              <video autoplay loop muted plays-inline class="w-100">
+                <source src="https://res.cloudinary.com/sparebits/video/upload/v1705903503/videos/ae0cd80d9af2e10843d063eb32c519a1_xzb4o6.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bdot">
+            <img src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760683/images/648e808fee2fabd2a3188beeaef3ef80_tbwcw6.svg" alt="dotted">
+          </div> -->
+      </div>
+    </section>
+    <!-- banner end -->
+    <!-- loreal start -->
+    <section class="loreal">
+      <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-6"data-aos="fade-left"  data-aos-duration="1500">
+            <div class="row pb-5">
+              <div class="s_loreal">
+                <h1>L’OREAL</h1>
+                <p>Revolutionizes the beauty experience by offering users an innovative virtual makeup try-on platform.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="img_loreal">
+                <img class="w-100" src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760674/images/96c07a26e0e849dcbdbd85f139a9f463_emvivi.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 offset-lg-1 loreal_pad" data-aos="fade-right"  data-aos-duration="1500">
+            <div class="row">
+              <div class="sloreal">
+                <video autoplay loop muted plays-inline class="w-100">
+                  <source src="https://res.cloudinary.com/sparebits/video/upload/v1705903489/videos/6611624f7e17ec961973ea136f2890dd_pfcmzs.mp4" type="video/mp4">
+                </video>
+                <p>Credit To The Owner of the video goes to Youtube Channel: https://youtu.be/hAhYsc-4oKM?si=WGtoqx8_IyadxE9p</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="loreal_text">
+                <h2>L'OREAL MAKEUP GENIUS APP</h2>
+                <p>The L'Oreal Makeup Genius app quickly gained immense popularity among Chinese consumers, amassing millions of downloads shortly after its release. It played a pivotal role in boosting L'Oreal's presence and demand in the Chinese market, setting a new standard and inspiring the development of similar apps in various cosmetic sectors, including hair care and skincare.</p>
+              </div>
+            </div>
+            <div class="row justify-content-end">
+              <a
+                  href=""
+                  class="btn btn-primary deep-yellow-btn"
+                  style="width: 145px"
+                  >Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- loreal end -->
+    <!-- merock start -->
+    <section class="merock"data-aos="zoom-in" data-aos-duration="1000">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 col-md-6 g-5">
+            <div class="merock_text">
+              <div class="row pb-5">
+                <h1>MERCK</h1>
+                <p>The Merck Manual Mobile App: Your Health Companion</p>
+              </div>
+            </div>
+            <div class="row morockr_pad">
+              <div class="col-sm-4 g-0">
+                <div class="merock_img">
+                  <img class="w-100" src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760800/images/a60dea1d5419092594bb40dfd1bf7db6_xdehvj.webp" alt="">
+                </div>
+              </div>
+              <div class="col-sm-4 g-0">
+                <div class="merock_img">
+                  <img class="w-100" src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760680/images/485f7b2bae719d22295695ba270912c6_qzkybv.webp" alt="">
+                </div>
+              </div>
+              <div class="col-sm-4 g-0">
+                <div class="merock_img">
+                  <img class="w-100" src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760639/images/5e8e3a46ddd2b1510616c4f05666a107_lhdere.webp" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 g-5 merock_pad">
+            <div class="row">
+              <div class="merock_video">
+                <video autoplay loop muted plays-inline class="w-100" >
+                  <source src="https://res.cloudinary.com/sparebits/video/upload/v1705903494/videos/d21027d26437c4dd5310c8f85952d941_tzsuwb.mp4" type="video/mp4">
+                </video>
+                <p>Credit To The Owner of the video goes to Youtube Channel: https://www.youtube.com/watch?v=TfbsooCtsBs</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="merock_stext">
+                <h2>MERCK MANUAL MOBILE APP</h2>
+                <p>Tamer Nasr team, known for their strong project management skills, directed the development of The Merck Manual Application. This collaborative effort with software experts produced a user-friendly platform for accessing comprehensive medical information, serving both healthcare professionals and the general public.</p>
+              </div>
+            </div>
+            <div class="row justify-content-end">
+              <a
+                  href=""
+                  class="btn btn-primary deep-yellow-btn"
+                  style="width: 145px"
+                  >Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- merock end -->
+    <!-- loreal start -->
+    <section class="loreal"data-aos="zoom-in" data-aos-duration="1000">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-6"data-aos="fade-left"  data-aos-duration="1500">
+            <div class="row pb-5">
+              <div class="s_loreal">
+                <h1>UPS i-Parcel</h1>
+                <p>UPS i-parcel: Enhancing Operations and Global Partnerships with Innovative Methods and Vendor Engagement</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="img_loreal">
+                <img class="w-100" src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760679/images/327c99faa53bd56e0c23c99456616a87_tzrkyt.webp" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 offset-lg-1 loreal_pad"data-aos="fade-right"  data-aos-duration="1500">
+            <div class="row">
+              <div class="sloreal">
+                <video autoplay loop muted plays-inline class="w-100">
+                  <source src="https://res.cloudinary.com/sparebits/video/upload/v1705903452/videos/18c1f90ef775adf28352af50ac874dc5_ml4jmw.mp4" type="video/mp4">
+                </video>
+                <p>Credit To The Owner of the video goes to Youtube Channel: https://www.youtube.com/watch?v=1dq6_ngiWwU</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="loreal_text">
+                <h2>UPS I-PARCEL TRACKING</h2>
+                <p>UPS i-parcel's success is credited to Tamer Nasr's customized project management approach and global collaboration. Substantial improvements in tracking capabilities, guided by Tamer Nasr, prioritize a streamlined and customer-centric experience.</p>
+              </div>
+            </div>
+            <div class="row justify-content-end">
+              <a
+                  href=""
+                  class="btn btn-primary deep-yellow-btn"
+                  style="width: 145px"
+                  >Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- loreal end -->
+    <!-- title start -->
+    <section class="title">
+      <h1>Industries Served</h1>
+    </section>
+    <!-- title end -->
+    <!-- card start -->
+    <section class="card-block-section mt-1 mt-sm-5 pt-5 pb-5">
+      <div class="common-block-card common-block-card-color mb-2 mb-sm-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row" >
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Manufacturing</h3>
+
+                <p class="mt-2">
+                  We enhance project efficiency by addressing all testing, quality control, and scheduling challenges. PM aligns projects with industry standards, mitigates production risks, and ensures timely, high-quality delivery.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760618/images/00f8ea81238a66d6b933cdd350ee3137_xucj0u.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card mt-2 mt-sm-5 pt-3 pt-sm-5 mb-2 mb-sm-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row" >
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100 radius"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760925/images/dc9be9a30abc49d72f5c0ed84309939c_hdv96a.jpg"
+              />
+            </div>
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Power Plant/Outages</h3>
+
+                <p class="mt-2">
+                  We provide support during outages and optimize production and efficiency within regulatory budgets. Project management also integrates new technologies to satisfy consumer expectations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="common-block-card common-block-card-color mt-1 mt-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Information Technology</h3>
+
+                <p class="mt-2">
+                  We specialize in managing complex initiatives to ensure efficient resource allocation, scope definition, cost control, and risk mitigation for lasting IT project success and enhanced organizational productivity.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760630/images/2d4fef5f0c3418d2c85993d32c53674f_o2wwto.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card mt-2 mt-sm-5 pt-3 pt-sm-5 mb-2 mb-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <img
+                class="img-fluid radius"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760656/images/10b06402471c7df4a88db8a69ac634ff_zkfem8.jpg"
+              />
+            </div>
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>ERP Implementation</h3>
+
+                <p class="mt-2">
+                  We significantly improve stakeholder communication, collaboration, and transparency to better align with business needs, address deviations, and ultimately achieve project goals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="common-block-card common-block-card-color mt-1 mt-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Energy</h3>
+
+                <p class="mt-2">
+                  We adeptly navigate and overcome several challenges, such as weather disruptions, public input, and technological complexities, to ensure efficient coordination with stakeholders, address sustainability priorities, and define project scopes within resource constraints.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760919/images/d3e278af9536a8095ce97e92bbdaf0cd_zgo21q.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card mt-2 mt-sm-5 pt-3 pb-5 pt-sm-5 mb-2 mb-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <img
+                class="img-fluid radius mb-5 pb-5"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760666/images/38fc95ad7beb3e3a5888e6a1c42ee9ce_ertogb.jpg"
+              />
+            </div>
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Cross-Functional Teams</h3>
+
+                <p class="mt-2">
+                  We utilize our unique skills to overcome team assembly and communication challenges, promote cohesion, and ensure project success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card common-block-card-color mt-1 mt-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Project Development</h3>
+
+                <p class="mt-2">
+                  Many industries face pressure to innovate quickly, resulting in tighter project schedules and more significant coordination challenges across multiple disciplines. Our PM expertise benefits companies in these industries because we help navigate the complexities and optimize resource allocation for successful product development.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760915/images/c692a726a37e28d8f8898cab3e5f8319_qz5o72.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card end -->
+    <!-- leading start -->
+    <section class="leading"data-aos="fade-up"
+     data-aos-duration="1500">
+      <div class="container">
+        <div class="row" >
+          <h2>Leading with Experience: </h2>
+          <h2>A CEO’s Chronicle of Business Transformation</h2>
+          <p class="pt-3"><i> At Global American Line from 2003 to 2005, I served as the Director of Supply Chain & Logistics. In this role, I managed operations, handled negotiations with staff, vendors, and clients, and implemented strategies to optimize sales, operations, inventory, and processes, with a focus on balancing demand and supply. I also worked on improving our supplier base to enhance quality, pricing, and delivery performance while ensuring that our processes were aligned to add value to the organization.</i></p>
+        </div>
+      </div>
+    </section>
+    <!-- leading end -->
+    <section class="contact-block mt-1 mt-sm-5 pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="content h-100 d-flex align-items-center justify-content-center flex-column"
+              data-aos="fade-left"  data-aos-duration="1500">
+              <h3>
+                Looking for project management solutions that drive success
+                across industries?
+              </h3>
+              <img
+                class="img-fluid"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760633/images/3c3166ec7871eec20cb39833d1bf48f8_1_u7dqlq.svg"
+              />
+              <h3>Find solutions tailored to your needs with us.</h3>
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-0 mt-3" data-aos="fade-right"  data-aos-duration="1500">
+            <div
+              class="content h-100 d-flex align-items-center justify-content-center flex-column gap-2 "
+            >
+              <h4>Contact Us</h4>
+              <h5>(551) 256-1401</h5>
+              <div class="mediaicon">
+                <ul class="list-unstyled d-flex gap-3">
+                  <li>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary deep-yellow-btn"
+                style="width: 165px"
+                >MESSAGE US</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row mb-2 mb-md-5 location-footer">
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>Jersey City, NJ</span>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>Piscataway, NJ</span>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>New York, NY</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 lpo mb-3 mb-md-0">
+            <center><img src="img/logo/logo.PNG" /></center>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>Services</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/coaching.html">PM COACHING</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/implementation.html">PM IMPLEMENTATION</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/admin.html">PM ADMIN</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>Showcase</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/loreal.html">L’Oreal</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/merck.html">MERCk</a>
+                  </li>
+                  <li class="list-group-item"><a href="/ups.html">UPS</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>About Us</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/loreal.html">CEO MESSAGE</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/why-us.html">WHY US</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/contact-us.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1 class="text-center">Get in Touch</h1>
+                <ul
+                  class="navbar-nav request-metting ml-auto justify-content-center align-items-center mt-2 mt-md-0"
+                >
+                  <li class="nav-item deep-yellow-btn" style="width: auto;">
+                    <a class="nav-link text-center ps-4 pe-4" href="#"
+                      >Request A metting</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <hr
+          class="footer-hr"
+          style="margin-top: -10px; border: 0.01rem solid rgba(0, 0, 0, 0.1)"
+        />
+        <div class="row sen">
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <center><a href="/legal-notice.html"><i class="bi bi-dot" style="color: rgb(223, 50, 50);"></i> Legal Notice <i class="bi bi-dot" style="color: rgb(223, 50, 50);"></i></a></center>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-12">
+            <center><p>© Copyright 2024 Tamer Nasr</p></center>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

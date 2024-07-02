@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEO Message</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/ceo.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg p-0" >
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html"
+          ><img src="img/logo/logo.PNG"
+        /></a>
+        <button
+          class="navbar-toggler menu-line"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu"
+        >
+          <svg width="40" height="40" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse ps-2 ps-lg-4"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav me-auto mb-2 gap-lg-4 gap-1 mb-lg-0"
+            style="flex: none"
+          >
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="service.html"
+                role="button"
+              >
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="coaching.html">PM COACHING</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pm-implementation.html"
+                    >PM IMPLEMENTATION</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="admin.html">PM ADMIN</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="showcase.html" role="button">
+                Showcase
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="loreal.html">L’Oreal</a>
+                </li>
+                <li><a class="dropdown-item" href="merck.html">MERCk</a></li>
+                <li><a class="dropdown-item" href="ups.html">UPS</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="about.html" role="button">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item active" href="ceo.html">CEO MESSAGE</a>
+                </li>
+                <li><a class="dropdown-item" href="whyus.html">WHY US</a></li>
+                <li>
+                  <a class="dropdown-item" href="contact.html"
+                    >CONTACT US</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav request-metting ml-auto justify-content-end">
+          <li class="nav-item deep-yellow-btn">
+            <a class="nav-link" href="#">Request A metting</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- header end -->
+    <!-- banner start -->
+    <section class="banner">
+      <img class="b_img1" src="img/ceo.png" alt="">
+      <img class="b_img2" src="img/ceo.png" alt="">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-7 col-md-7 col-sm-6" data-aos="fade-right" data-aos-duration="1500">
+            <div class="b_text">
+              <h1>Navigating with Vision and Excellence</h1>
+              <p>Discover Tamer Nasr’s Journey, Leadership and Insights.</p>
+            </div>  
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 col-10" data-aos="fade-left" data-aos-duration="1500">
+            <div class="b_img">
+              <img class="w-100" src="img/ceob.jpg" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+    <!-- ceo message start -->
+    <section class="ceo my-5" data-aos="zoom-in" data-aos-duration="1500">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-7">
+            <div class="ceo_title">
+              <h1>Message from our CEO</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-7">
+            <div class="ceo_text">
+              <h5 class="py-3">Dear Visitors,</h5>
+              <p>Welcome to our realm where ambition meets achievement, and visions turn into reality. As the CEO of Tamer Nasr company, I want to share with you a story that encapsulates the essence of what we strive for every day.</p>
+              <p class="py-3">Imagine the colossal endeavor of Apollo 11. This mission, which etched the first footprints on the moon’s untouched surface, stands as a testament to the pinnacle of project management. Flight Director Gene Kranz, a figure of unwavering resolve and exceptional leadership, spearheaded a team that transformed a bold dream into a chapter of history.</p>
+              <p>This story is not just about reaching new heights; it is a narrative that mirrors our ethos. Here, we embrace the complexity of challenges, just as Kranz did, with rigorous planning, clear communication, and an indomitable spirit that sees opportunity in every difficulty. Our project management is the compass that guides us through the uncharted territories of innovation, where 'impossible' is merely an unexplored solution.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-5 ceo_text">
+            <p class="py-3 mt-5">As you navigate our site and discover what we offer, imagine the ingenuity that placed a human on the moon. With each project we undertake, we channel that same ingenuity, dedication, and strategic precision to ensure that your goals are not just met but exceeded.</p>
+            <p class="py-3">Join us in this journey of exceptional creation, where your aspirations become our mission, managed meticulously to deliver not just results, but legacies.</p>
+            <p class="py-3">Dream boldly. Plan strategically. Achieve remarkably.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ceo message end -->
+    <!-- leadership start -->
+    <section class="leardership">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="lead_row1">
+              <h2 class="pt-4">Leadership Insights:</h2>
+              <h2 style="border-bottom: 4px solid #eeba2b;">A Conversation with Tamer Nasr</h2>
+              <p class="mt-4 pb-5">In the fast-changing world of leading businesses and a career spanning over three decades, Tamer Nasr's journey reflects his adaptability, vision, and unwavering commitment to excellence. In this exclusive interview, Tamer shares insights into his leadership philosophy, vision for the future, and strategies for success.</p>
+              <h4>Question 1: How do you foster adaptability, continuous improvement, collaboration, and innovation within your team or organization?</h4>
+              <p><i>"My diverse experiences taught me the importance of adaptability and understanding various business models. It was a solid foundation for my future endeavors."</i></p>
+              <p class="mt-4 pb-5">Tamer emphasizes the significance of adaptability and continuous learning in his leadership philosophy and style. He says, "My leadership centers on adaptability, continuous improvement, and fostering a culture of collaboration and innovation."</p>
+              <h4>Question 2: How do you prioritize data-driven decision-making and strategic thinking in your leadership approach?</h4>
+              <p class="mt-4 pb-5">Tamer's decision-making relies on data analysis and strategic thinking. He explains, "For crucial strategic choices, I favor data-driven decisions. We gather insights, analyze trends, and discuss openly with our leadership team, ensuring alignment with our long-term vision."</p>
+              <h4>Question 3: How do you integrate personal development goals with organizational success, ensuring a positive impact on both?</h4>
+              <p>For Tamer, success encompasses both personal growth and the company's prosperity. He elaborates,</p>
+              <p class="mt-4 pb-5"><i>"Success, for me, means achieving personal growth while leading the company toward sustainable success. It involves making a positive impact on organization, employees, and the communities we serve."</i></p>
+              <div class="row justify-content-center">
+                <div class="col-lg-6">
+                  <div class="lead_card">
+                    <p class="text-center"><i>"Leadership is about adapting, improving, and collaborating innovatively. Success means growing personally and ensuring the organization thrives, benefiting employees and communities."</i></p>
+                  </div>
+                </div>
+              </div>
+              <h4>Question 4: How do you balance culture, innovation, growth, and well-being?</h4>
+              <p class="mt-4 pb-5"><i>"My top priorities include fostering a collaborative and inclusive workplace culture, driving innovation, and ensuring the long-term growth and profitability of the company. Employee well-being and customer satisfaction are also paramount."</i></p>
+              <h4>Question 5: Discuss your vision for your company in the field of Project Management, focusing on integrating technology to provide value for clients while upholding core values?</h4>
+              <p><i>"I envision our company as a global leader in the Project Management industry, leveraging cutting-edge technology to deliver exceptional value to our clients. We aim to expand our reach while remaining committed to our core values."</i></p>
+              <p class="mt-4 pb-5">"Tamer Nasr's leadership journey exemplifies the importance of adaptability, continuous learning, and a holistic approach to success. With a focus on data-driven decision-making and fostering a collaborative workplace culture, he paves the way for sustainable growth and innovation in the Project Management industry.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- leadership end -->
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row mb-2 mb-md-5 location-footer">
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>Jersey City, NJ</span>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>Piscataway, NJ</span>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>New York, NY</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 lpo mb-3 mb-md-0">
+            <center><img src="img/logo/logo.PNG" /></center>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>Services</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/coaching.html">PM COACHING</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/implementation.html">PM IMPLEMENTATION</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/admin.html">PM ADMIN</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>Showcase</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/loreal.html">L’Oreal</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/merck.html">MERCk</a>
+                  </li>
+                  <li class="list-group-item"><a href="/ups.html">UPS</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>About Us</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/loreal.html">CEO MESSAGE</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/why-us.html">WHY US</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/contact-us.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1 class="text-center">Get in Touch</h1>
+                <ul
+                  class="navbar-nav request-metting ml-auto justify-content-center align-items-center mt-2 mt-md-0"
+                >
+                  <li class="nav-item deep-yellow-btn" style="width: auto;">
+                    <a class="nav-link text-center ps-4 pe-4" href="#"
+                      >Request A metting</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <hr
+          class="footer-hr"
+          style="margin-top: -10px; border: 0.01rem solid rgba(0, 0, 0, 0.1)"
+        />
+        <div class="row sen">
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <center><a href="/legal-notice.html"><i class="bi bi-dot" style="color: rgb(223, 50, 50);"></i> Legal Notice <i class="bi bi-dot" style="color: rgb(223, 50, 50);"></i></a></center>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-12">
+            <center><p>© Copyright 2024 Tamer Nasr</p></center>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

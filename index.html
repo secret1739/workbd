@@ -1,0 +1,788 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamer Nasr</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-0" >
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html"
+          ><img src="img/logo/logo.PNG"
+        /></a>
+        <button
+          class="navbar-toggler menu-line"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu"
+        >
+          <svg width="40" height="40" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse ps-2 ps-lg-4"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav me-auto mb-2 gap-lg-4 gap-1 mb-lg-0"
+            style="flex: none"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="service.html"
+                role="button"
+              >
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="coaching.html">PM COACHING</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pm-implementation.html"
+                    >PM IMPLEMENTATION</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="admin.html">PM ADMIN</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="showcase.html" role="button">
+                Showcase
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="loreal.html">L’Oreal</a>
+                </li>
+                <li><a class="dropdown-item" href="merck.html">MERCk</a></li>
+                <li><a class="dropdown-item" href="ups.html">UPS</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="about.html" role="button">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="ceo.html">CEO MESSAGE</a>
+                </li>
+                <li><a class="dropdown-item" href="whyus.html">WHY US</a></li>
+                <li>
+                  <a class="dropdown-item" href="contact.html"
+                    >CONTACT US</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav request-metting ml-auto justify-content-end">
+          <li class="nav-item deep-yellow-btn">
+            <a class="nav-link" href="#">Request A metting</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero-section">
+      <div class="side-maintain-img" >
+        <img
+          src="https://tamernasr.com/images/b1b52075b700c1974a9858d37f2d0dca.svg"
+        />
+      </div>
+
+      <div class="container mainConainer h-100">
+        <div class="row h-100">
+          <div class="col-sm-11 col-12 h-100">
+            <div
+              class="hero-left h-100 d-flex flex-column justify-content-center"
+              data-aos="fade-right"  data-aos-duration="1500">
+              <h2>TAMER NASR</h2>
+              <p>PROJECT MANAGEMENT CONSULTING FIRM</p>
+              <a href="" class="btn btn-primary deep-yellow-btn">Learn more</a>
+            </div>
+          </div>
+          <div class="col-1" data-aos="fade-left"  data-aos-duration="1500">
+            <div class="hexon-video d-flex flex-column align-items-end">
+              <div class="video-block-path">
+                <div class="video-block-margin">
+                  <video
+                    id="wKXfIQqN8D0FvRU0"
+                    src="https://res.cloudinary.com/sparebits/video/upload/v1705903444/videos/89f13be26c93ae862bf34784ae9e8a7b_x8w64m.mp4"
+                    playsinline=""
+                    preload="none"
+                    autoplay=""
+                    muted=""
+                    loop=""
+                    data-playback-rate="1.5"
+                    data-controls-width="100.1120918%"
+                    data-controls-height="100.02117331%"
+                    data-controls-top="0%"
+                    data-controls-left="0%"
+                  ></video>
+                </div>
+              </div>
+              <div class="video-block-path">
+                <div class="video-block-margin">
+                  <video
+                    id="wKXfIQqN8D0FvRU0"
+                    src="https://res.cloudinary.com/sparebits/video/upload/v1705903503/videos/e4a1c311e0e981dabaa4213717191883_mnfx49.mp4"
+                    playsinline=""
+                    preload="none"
+                    autoplay=""
+                    muted=""
+                    loop=""
+                    data-playback-rate="1.5"
+                    data-controls-width="100.1120918%"
+                    data-controls-height="100.02117331%"
+                    data-controls-top="0%"
+                    data-controls-left="0%"
+                  ></video>
+                </div>
+              </div>
+              <div class="video-block-path">
+                <div class="video-block-margin">
+                  <video
+                    id="wKXfIQqN8D0FvRU0"
+                    src="https://res.cloudinary.com/sparebits/video/upload/v1705903467/videos/311fcfab4d0402b56fa92e476595a585_pank1s.mp4"
+                    playsinline=""
+                    preload="none"
+                    autoplay=""
+                    muted=""
+                    loop=""
+                    data-playback-rate="1.5"
+                    data-controls-width="100.1120918%"
+                    data-controls-height="100.02117331%"
+                    data-controls-top="0%"
+                    data-controls-left="0%"
+                  ></video>
+                </div>
+              </div>
+              <div class="video-block-path">
+                <img
+                  src="	https://tamernasr.com/images/080141e6234794855ec376674d325269.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="side-maintain-img side-maintain-img-right">
+        <img
+          src="https://tamernasr.com/images/b1b52075b700c1974a9858d37f2d0dca.svg"
+        />
+      </div>
+    </section>
+    <section class="what-we-do mt-1 mt-sm-5 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+            <div
+              class="we-do-right-img h-100 d-flex justify-content-center align-items-center"
+           
+          >
+              <img
+                class="img-fluid"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760642/images/4c3c54abe4df4afae6a692eec7d02e96_kigwft.jpg"
+              />
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-left"  data-aos-duration="1500">
+            <div class="content mt-md-auto mt-4" 
+         >
+              <h2>What We Do</h2>
+              <p class="mt-3 mb-4">
+                Tamer Nasr offers professional project management consulting
+                services to businesses seeking efficiency, success delivery,
+                cost reduction, and effective management of critical work
+                projects. Our team discover planning, implementation, testing
+                and delivery.
+              </p>
+              <center>
+                <a
+                  href=""
+                  class="btn btn-primary deep-yellow-btn"
+                  style="width: 145px"
+                  >About Us</a>
+              </center>
+            </div>
+            <div
+              class="last-content d-sm-flex d-block text-center align-items-center justify-content-center gap-3 mt-5"
+            >
+              <div class="img-0">
+                <img
+                  src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760680/images/52e59be5c92c5075547f1659bd53939b_alqpal.svg"
+                />
+              </div>
+              <div class="content-middel text-center">
+                <p class="p-0 m-0">Exceptional Dedication Recognized:</p>
+                <p>
+                  Tamer Nasr Receives L’Oreal Digital IT's 'The Dedicated 9-9
+                  Member of 2014' Award
+                </p>
+              </div>
+              <div class="img-0">
+                <img
+                  src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760680/images/52e59be5c92c5075547f1659bd53939b_alqpal.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-distinctive-edge mt-1 mt-sm-5 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"  data-aos="fade-left"  data-aos-duration="1500">
+            <h1 class="pb-1">Our Distinctive Edge</h1>
+            <div class="content mt-3">
+              <h2>One Client at a Time</h2>
+              <p>
+                With over two decades of experience, we a project management
+                consulting firm in various industries. Our dedicated and focused
+                approach ensures that each client receives the highest quality
+                consulting services, leading to maximum project success.
+              </p>
+            </div>
+            <div class="content mt-5">
+              <h2>Collaboration and Transparency</h2>
+              <p>
+                Our project management consultants go beyond task management. We
+                engage deeply with clients, assess potential challenges, and
+                craft customized solutions to achieve project aspirations and
+                overcome obstacles.
+              </p>
+            </div>
+            <div class="content mt-5">
+              <h2>A Trustworthy and Dedicated Partner</h2>
+              <p>
+                Our client-focused approach, reputation for trust, and
+                commitment to lasting success make us unique in the project
+                management consulting industry. When you hire us, you gain a
+                dedicated partner with an entire project management team.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+            <div
+              class="right-distinctive d-flex justify-content-center align-items-center h-100"
+            >
+              <div class="right-distinctive-img-block">
+                <div class="right-distinctive-img">
+                  <img
+                    src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760643/images/7c49bf0ac93497d5ff3739c2ff76f88c_flfmp6.jpg"
+                    alt="Business colleagues coaching with sales report at workplace."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="innovative-card mt-1 mt-sm-5 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlebar">
+              <h2 class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                The Innovative Strategies Lead to Success
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-4">
+            <div
+              class="card d-flex flex-column align-items-center justify-content-center text-center"
+              data-aos="flip-up" data-aos-duration="1000">
+              <h1>$50 Million</h1>
+              <p class="p-0 m-0">Increased Clients’ Annual Revenues</p>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div
+              class="card d-flex flex-column align-items-center justify-content-center text-center"
+              data-aos="flip-up" data-aos-duration="1500">
+              <h1>1,300</h1>
+              <p class="p-0 m-0">
+                Stores with All Systems’ Integration (POS implementation and
+                upgrade)
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div
+              class="card d-flex flex-column align-items-center justify-content-center text-center"
+              data-aos="flip-up" data-aos-duration="2000">
+              <h1>$850 Million</h1>
+              <p class="p-0 m-0">Improved Marketing & Sales Funnels</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card-block-section mt-1 mt-sm-5 pt-5 pb-5">
+      <div class="container mb-5 pb-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="titlebar"  data-aos="fade-up" data-aos-duration="1000">
+              <h2>Our Area of Expertise</h2>
+              <p>
+                We specialize in managing and optimizing project management
+                software to enhance an<br />
+                organization’s efficiency, collaboration, and data security.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card common-block-card-color mb-2 mb-sm-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row" >
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Software Evaluation and Selection</h3>
+
+                <p class="mt-2">
+                  Evaluate your organizational needs, identify existing pain
+                  points within the organization, and create custom approaches
+                  and solutions for overcoming them.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760688/images/9388b685a5227e3a758dc13a9b1cb797_k3qvyj.webp"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card mt-2 mt-sm-5 pt-3 pt-sm-5 mb-2 mb-sm-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row" >
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760659/images/10d16a98c4a041ad6228252947f96d37_msqibs.jpg"
+              />
+            </div>
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Data Management and Security</h3>
+
+                <p class="mt-2">
+                  Ensure you have strong data protection, security, and
+                  compliance to keep your project data safe and intact.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="common-block-card common-block-card-color mt-1 mt-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>User Training and Support</h3>
+
+                <p class="mt-2">
+                  Improve user experiences by offering additional training,
+                  support, and feedback in the areas where users need help the
+                  most.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760663/images/40c8ca351c7383eb47066bdfe3fe01c9_jdlakn.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="common-block-card mt-2 mt-sm-5 pt-3 pt-sm-5 mb-2 mb-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <img
+                class="img-fluid"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760688/images/8606ac6aed7608c974f04e6b566488be_ezmuwh.jpg"
+              />
+            </div>
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>Software Maintenance and Update</h3>
+
+                <p class="mt-2">
+                  Continuously update the software to enhance its effectiveness
+                  and ensure smooth and secure operations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="common-block-card common-block-card-color mt-1 mt-sm-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div
+                class="card d-flex justify-content-center align-items-center"
+              >
+                <h3>User Training and Support</h3>
+
+                <p class="mt-2">
+                  Improve user experiences by offering additional training,
+                  support, and feedback in the areas where users need help the
+                  most.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img
+                class="img-fluid h-100"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760666/images/52c6a7bea9e12b05d020bcf7e3346e56_ees3u4.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="elevate-video mt-1 mt-sm-5 position-relative overflow-hidden"
+      data-aos="fade-down" data-aos-duration="1500">
+      <div id="videoWrapper">
+        <video playsinline autoplay muted loop>
+          <source
+            src="https://res.cloudinary.com/sparebits/video/upload/v1705903494/videos/d209b429a92547cd3a4868fc00227f92_xlnjge.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="container elevate-video-container position-absolute w-100">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlebar">
+              <h2 class="text-center">
+                Elevate your brand's status through our services and align with
+                industry titans such as:
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="caption">
+              <div class="contents">
+                <img
+                  class="img-fluid"
+                  src="https://i.postimg.cc/hj9dqfmM/merk-preview.png"
+                  alt="merk"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="makeup-block mt-1 mt-sm-5 pt-5 pb-5" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlebar" data-aos="fade-up" data-aos-duration="1000">
+              <h2 class="text-center">
+                Crafting Makeup Genius: A Remarkable Tale of Triumph
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6" data-aos="fade-left"  data-aos-duration="1500">
+            <div
+              class="imgcenter d-flex h-100 align-items-center justify-content-center"
+            >
+              <img
+                class="img-fluid"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1711778937/b76ed19e16ffa8f401dc9558fa99fb5b_ny9cwz.jpg"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-0 mt-3"  data-aos="zoom-in" data-aos-duration="1000">
+            <h3>
+              The development of L'Oreal Makeup Genius App, managed by Tamer
+              Nasr, was highlighted as a 2018 success case study by BW (a
+              Berkshire Hathaway Company)
+            </h3>
+            <p>
+              Business Wire was founded in 1961 and has since established itself
+              as a prominent player in the news distribution industry. In 2006,
+              Business Wire was acquired by Berkshire Hathaway, the conglomerate
+              managed by Warren Buffett.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest-block mt-1 mt-sm-5">
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+            <div
+              class="imgcenter d-flex h-100 align-items-center justify-content-center"
+            >
+              <img
+                class="img-fluid"
+                src="https://i.postimg.cc/c4T5SJMs/asd-Capture.png"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-0 mt-3"  data-aos="fade-left"  data-aos-duration="1500">
+            <div
+              class="content h-100 d-flex align-items-center justify-content-center flex-column pb-md-0 pb-3"
+            >
+              <h1>LATEST INSIGHT</h1>
+              <p>
+                Our latest news, case studies, reports, podcasts, webinars &
+                more.
+              </p>
+              <a
+                href=""
+                class="btn btn-primary deep-yellow-btn w-auto"
+                style="width: 145px"
+                >SIGNUP FOR LATEST INSIGHTS</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="contact-block mt-1 mt-sm-5 pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="content h-100 d-flex align-items-center justify-content-center flex-column"
+              data-aos="fade-left"  data-aos-duration="1500">
+              <h3>
+                Looking for project management solutions that drive success
+                across industries?
+              </h3>
+              <img
+                class="img-fluid"
+                src="https://res.cloudinary.com/dws7w98ex/image/upload/v1710760633/images/3c3166ec7871eec20cb39833d1bf48f8_1_u7dqlq.svg"
+              />
+              <h3>Find solutions tailored to your needs with us.</h3>
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-0 mt-3" data-aos="fade-right"  data-aos-duration="1500">
+            <div
+              class="content h-100 d-flex align-items-center justify-content-center flex-column gap-2 "
+            >
+              <h4>Contact Us</h4>
+              <h5>(551) 256-1401</h5>
+              <div class="mediaicon">
+                <ul class="list-unstyled d-flex gap-3">
+                  <li>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary deep-yellow-btn"
+                style="width: 165px"
+                >MESSAGE US</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row mb-2 mb-md-5 location-footer">
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>Jersey City, NJ</span>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>Piscataway, NJ</span>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center">
+              <span><i class="bi bi-pin-map-fill"></i></span>&nbsp;
+              <span>New York, NY</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 lpo mb-3 mb-md-0">
+            <center><img src="img/logo/logo.PNG" /></center>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>Services</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/coaching.html">PM COACHING</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/implementation.html">PM IMPLEMENTATION</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/admin.html">PM ADMIN</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>Showcase</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/loreal.html">L’Oreal</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/merck.html">MERCk</a>
+                  </li>
+                  <li class="list-group-item"><a href="/ups.html">UPS</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1>About Us</h1>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="/loreal.html">CEO MESSAGE</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/why-us.html">WHY US</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="/contact-us.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                <h1 class="text-center">Get in Touch</h1>
+                <ul
+                  class="navbar-nav request-metting ml-auto justify-content-center align-items-center mt-2 mt-md-0"
+                >
+                  <li class="nav-item deep-yellow-btn" style="width: auto;">
+                    <a class="nav-link text-center ps-4 pe-4" href="#"
+                      >Request A metting</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <hr
+          class="footer-hr"
+          style="margin-top: -10px; border: 0.01rem solid rgba(0, 0, 0, 0.1)"
+        />
+        <div class="row sen">
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <center><a href="/legal-notice.html"><i class="bi bi-dot" style="color: rgb(223, 50, 50);"></i> Legal Notice <i class="bi bi-dot" style="color: rgb(223, 50, 50);"></i></a></center>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-12">
+            <center><p>© Copyright 2024 Tamer Nasr</p></center>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

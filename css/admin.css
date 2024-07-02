@@ -1,0 +1,479 @@
+/*banner start*/
+.banner{
+  height: 389px;
+  display: flex;
+background-color: #011329;
+align-items: center;
+position: relative;
+}
+.b_video{
+  position: relative;
+}
+.b_video video{
+
+}
+.angle {
+    left: 497px;
+    rotate: 7deg;
+    height: 341px;
+    width: 50px;
+    position: absolute;
+    background-color: #011329;
+    top: 0px;
+}
+.b_text{
+  
+}
+.b_text h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--nameColor);
+}
+.b_text p{
+    color: var(--whiteColor);
+    font-size: 20px;
+    font-weight: 700;
+}
+.b_text img{
+  width: 13%;
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+}
+.borde{
+  width: 100%;
+  height: 20px;
+  background: radial-gradient(circle, rgba(166, 133, 51, 1) 0%, rgba(250, 233, 194, 1) 0%, rgba(166, 133, 51, 1) 100%);
+  position: absolute;
+  top: 21px;
+  left: 0;
+}
+.bord{
+  width: 100%;
+  height: 20px;
+  background: radial-gradient(circle, rgba(166, 133, 51, 1) 0%, rgba(250, 233, 194, 1) 0%, rgba(166, 133, 51, 1) 100%);
+  position: absolute;
+  bottom: 27px;
+  left: 0;
+}
+
+/*banner end */
+/*acard start*/
+.acard{}
+.s_card{
+  height: 385px;
+  padding: 30px;
+  background-color: #011329;
+  border-radius: 10px;
+  border: 4px solid #eeba2b;
+  transition: .33s;
+  box-shadow: -1px 3px 9px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 3px 9px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 9px 4px rgba(0,0,0,0.75);
+}
+.s_card:hover{
+  transform: scale(0.98);
+}
+.s_card h2{
+  font-size: 21px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+.aborder{
+  text-align: center;
+  height: 5px ;
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: #eeba2b;
+}
+.s_card img{
+  height: 150px;
+  width: 100%;
+  padding: 10px 20px;
+}
+.s_card p{
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+/*acard end*/
+/*success start*/
+.success{
+  margin-top: 90px;
+}
+.success h4{
+  font-size: 30px;
+    color: var(--contentColor);
+    font-weight: 800;
+    text-align: center;
+}
+.s_success{
+  height: 180px;
+  text-align: center;
+}
+.s_success h2{
+  font-size: 75px;
+    color: var(--contentColor);
+    font-weight: 800;
+    text-shadow: 5px 5px 6px #525252;
+}
+.s_success p{
+  font-size: 20px;
+    color: var(--contentColor);
+    font-weight: 500;
+}
+.bo{
+  border-left: 4px solid var(--contentColor);
+  border-right: 4px solid var(--contentColor);
+}
+/*success end*/
+/*title start*/
+.title{
+  margin-top: 50px;
+  background-color: #011329;
+}
+.title h1{
+  padding: 10px 0px;
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+/*title end*/
+/*loreal start*/
+.loreal{
+  padding: 50px 0px;
+}
+.s_loreal{}
+.s_loreal h1{
+  font-size: 45px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+.s_loreal p{
+  font-size: 25px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+.sloreal p{
+  font-size: 8px;
+  color: var(--contentColor);
+  font-weight: 500;
+
+}
+.loreal_text{}
+.loreal_pad{
+  padding: 20px;
+  background-color: #d5d5d5;
+  border-radius: 20px;
+}
+.loreal_text h2{
+  font-size: 29px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+.loreal_text p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+/*loreal end*/
+/*divider start*/
+.divider{
+  height: 20px;
+  background-color: var(--contentColor);
+}
+/*divider end*/
+/*.company start*/
+.company{
+  background-color: #011329;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*  position: relative;*/
+}
+.text{
+  height: 435px;
+  background-color: yellow;
+  position: absolute;
+
+}
+.c_text{
+  height: 435px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 7px solid #eeba2b;
+  background-color: #ffffff;
+}
+.c_text h1{
+  font-size: 23px;
+    color: var(--contentColor);
+    font-weight: 800;
+    text-align: center;
+}
+.c_text img{
+  height: 265px;
+}
+.c_card{
+ 
+}
+.c_size{
+  width: 100%;
+  background-color: white;
+    border-radius: 10px;
+  padding: 10px 10px;
+  text-align: center;
+
+}
+.c_card span{
+      font-size: 20px;
+    color: var(--contentColor);
+    font-weight: 500;
+    text-align: center;
+}
+.c_card img{
+/*  width: 30%;*/
+}
+/*.company end*/
+/*leading start*/
+.leading{
+  background-color: #d5d5d5;
+  padding: 40px 0px;
+  margin: 48px 0px;
+}
+.leading h2{
+  font-size: 35px;
+  color: var(--contentColor);
+  font-weight: 800;
+  text-align: center;
+}
+.leading p{
+    font-size: 25px;
+    color: var(--contentColor);
+    font-weight: 500;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    word-break: break-all;
+}
+/*leading end*/
+/*media start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .banner {
+    height: 412px;
+  }
+  .b_text h1 {
+    padding-top:10px ;
+    font-size: 22px;
+  }
+  .b_text p {
+    font-size: 16px;
+  }
+  .espad{
+    padding: 0px 25px 0px 0px !important;
+  }
+  .b_text img {
+    display: none;
+  }
+  .s_card {
+    margin-bottom: 30px;
+  }
+  .success{
+    margin-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  
+  .leading h2 {
+    font-size: 24px;
+  }
+  .leading p {
+    font-size: 23px;
+  }
+  .s_loreal h1 {
+    font-size: 35px;
+  }
+  .loreal_text h2 {
+    font-size: 20px;
+  }
+  .loreal_text p {
+    font-size: 18px;
+  }
+  .title h1 {
+    font-size: 21px;
+  }
+  .c_card img {
+    display: none;
+  }
+  .sm_pad{
+    margin-top: 20px;
+  }
+  .company{
+    height: 200vh;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner {
+    height: 223px;
+  }
+  .b_text h1 {
+    font-size: 19px;
+  }
+  .b_text p {
+    font-size: 15px;
+  }
+  .angle {
+    left: 197px;
+    height: 177px;
+  }
+  .b_text img {
+    display: none;
+  }
+  .s_card {
+    margin-bottom: 30px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+  }
+  .s_loreal p {
+    font-size: 23px;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  
+  .leading h2 {
+    font-size: 30px;
+  }
+  .leading p {
+    font-size: 23px;
+  }
+  .success{
+    padding-top: 0 !important;
+  }
+  .s_success h2 {
+    font-size: 50px;
+  }
+  .s_success p {
+    font-size: 18px;
+  }
+  .title h1 {
+    font-size: 20px;
+  }
+  .c_text h1 {
+    font-size: 15px;
+  }
+  .c_card span {
+    font-size: 11px;
+  }
+  .c_text img {
+    height: 225px;
+  }
+  .c_text {
+    height: 355px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner {
+    height: 273px;
+  }
+  .b_text h1 {
+    font-size: 36px;
+  }
+  .b_text p {
+    font-size: 16px;
+  }
+  .angle {
+    left: 290px;
+    height: 229px;
+  }
+  .s_card {
+    padding: 15px;
+  }
+  .s_card img {
+    padding: 10px 0px;
+  }
+  .s_card p {
+    font-size: 15px;
+  }
+  .s_success h2 {
+    font-size: 60px;
+  }
+  .s_success p {
+    font-size: 18px;
+  }
+  .title h1 {
+    font-size: 25px;
+  }
+  .s_loreal h1 {
+    font-size: 40px;
+  }
+  .loreal_text h2 {
+    font-size: 20px;
+  }
+  .loreal_text p {
+    font-size: 18px;
+  }
+  .c_text h1 {
+    font-size: 20px;
+  }
+  .c_card span {
+    font-size: 19px;
+  }
+  
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .angle {
+    left: 507px;
+  }
+  .s_card {
+    height: 370px;
+  }
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  .banner {
+    height: 410px;
+  }
+  .angle {
+    left: 608px;
+    rotate: 9deg;
+    height: 348px;
+  }
+  .s_card h2 {
+    font-size: 32px;
+  }
+  
+}

@@ -1,0 +1,260 @@
+/*banner start*/
+.banner{
+  background: var(--contentColor);
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.bimg{}
+.bimg img{
+  position: absolute;
+/*  overflow: hidden;*/
+  height: 30%;
+  top: 0;
+  left: 0;
+}
+.bbimg img{
+  position: absolute;
+  height: 30%;
+  right: 0;
+  bottom: 0;
+}
+.sbimg img{
+  position: absolute;
+  height: 30%;
+  right: 0;
+  top: 0;
+}
+.sbbimg img{
+  position: absolute;
+  height: 30%;
+  left: 0;
+  bottom: 0;
+  rotate: 180deg;
+}
+.banner h1{
+  padding-top: 190px;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--nameColor);
+}
+.banner p{
+  color: var(--whiteColor);
+/*  color: black;*/
+  font-size: 18px;
+  font-weight: 700;
+}
+.banner_video{
+  padding: 202px 30px 0px;
+}
+.banner_video video{
+
+  border-radius: 20px 100px 20px 100px;
+}
+/*banner end */
+/*partner start*/
+.partner{
+  padding: 100px 100px 0;
+}
+.partner h1{
+  color: var(--contentColor);
+  font-weight: 700;
+  text-align: center;
+}
+.partner p{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+/*partner end*/
+/*single card start*/
+.s_item{
+  padding: 35px 0px 0px 35px;
+}
+
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 150px;
+  background-color: #13678a;
+  z-index: -1;
+}
+.s_item1{
+  padding: 35px 35px 0px 0px;
+}
+.bg1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 300px;
+  width: 150px;
+  background-color: #13678a;
+  z-index: -1;
+}
+/*single card end*/
+/*media start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .bimg img,.bbimg img,.sbimg img,.sbbimg img{
+    height: 15%;
+  }
+  .banner h1 {
+    padding-top: 60px;
+    font-size: 29px;
+    text-align: center;
+  }
+  .banner p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .banner_video video {
+      border-radius: 30px;
+  }
+  .banner_video {
+      padding: 20px 0px 0px;
+  }
+  .partner {
+    padding: 100px 0px 0;
+  }
+  .partner h1 {
+    font-size: 30px;
+  }
+  .partner p {
+    font-size: 16px;
+  }
+  .partner {
+    padding: 60px 0px 0;
+  }
+  .s_item {
+    padding: 25px 0px 0px 15px;
+  }
+  .s_item1 {
+    padding: 25px 15px 0px 0px;
+  }
+  .bg {
+    height: 160px;
+  }
+  .bg1 {
+    height: 160px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bimg img,.bbimg img,.sbimg img,.sbbimg img{
+    height: 15%;
+  }
+  .banner h1 {
+    padding-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .banner_video video {
+      border-radius: 30px;
+  }
+  .banner_video {
+      padding: 20px 0px 0px;
+  }
+  .partner {
+    padding: 100px 0px 0;
+  }
+  .partner h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .partner p {
+    font-size: 18px;
+  }
+  .partner {
+    padding: 80px 0px 0;
+  }
+  .s_item {
+    padding: 30px 0px 0px 25px;
+  }
+  .s_item1 {
+    padding: 30px 25px 0px 0px;
+  }
+  .bg {
+    height: 200px;
+  }
+  .bg1 {
+    height: 200px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bimg img,.bbimg img,.sbimg img,.sbbimg img{
+    height: 15%;
+  }
+  .banner h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .banner_video video {
+      border-radius: 30px;
+  }
+  .banner_video {
+      padding: 20px 0px 0px;
+  }
+  .partner {
+    padding: 100px 0px 0;
+  }
+  .partner h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .partner p {
+    font-size: 18px;
+  }
+  .s_item {
+    padding: 30px 0px 0px 25px;
+  }
+  .s_item1 {
+    padding: 30px 25px 0px 0px;
+  }
+  .bg {
+    height: 170px;
+  }
+  .bg1 {
+    height: 170px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .banner_video {
+    padding: 125px 50px 0px 0px;
+  }
+  .banner h1{
+    padding-top: 180px;
+  }
+}
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  .banner_video {
+    padding: 110px 50px 0px 0px;
+  }
+  .banner h1{
+    padding-top: 110px;
+  }
+}
+/*media end*/

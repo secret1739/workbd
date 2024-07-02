@@ -1,0 +1,379 @@
+/*banner start*/
+.banner{
+  background: var(--contentColor);
+/*  height: 500px;*/
+  padding: 0px 0px 40px;
+  overflow: hidden;
+  position: relative;
+}
+/*.bdotted img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40%;
+}
+.bdot img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  rotate: -90deg;
+}*/
+.banner_text{}
+.banner_text h1{
+/*  padding-top: 190px;*/
+  font-size: 45px;
+  font-weight: 900;
+  color: var(--nameColor);
+}
+.banner_text p{
+  color: var(--whiteColor);
+/*  color: black;*/
+  font-size: 22px;
+  font-weight: 700;
+}
+.banner_video{
+  
+}
+.banner_video video{
+  border: 4px solid #eeba2b;
+  border-radius: 20px;
+}
+.brow{
+  padding-top: 50px;
+}
+/*banner end */
+/*loreal start*/
+.loreal{
+  padding: 100px 0px;
+}
+.s_loreal{}
+.s_loreal h1{
+  font-size: 60px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+.s_loreal p{
+  font-size: 25px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  word-break: break-all;
+}
+.sloreal p{
+  font-size: 8px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  word-break: break-all;
+}
+.loreal_text{}
+.loreal_pad{
+  padding: 20px;
+  background-color: #d5d5d5;
+  border-radius: 20px;
+}
+.loreal_text h2{
+  font-size: 29px;
+  color: var(--contentColor);
+  font-weight: 800;
+  text-align: center;
+}
+.loreal_text p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  word-break: break-all;
+}
+/*loreal end*/
+/*merock start*/
+.merock{
+  padding: 30px 0px 60px;
+  background-color: #011329;
+}
+.merock_text{
+  padding-right: 40px;
+}
+.merock_text h1{
+  font-size: 60px;
+  color: white;
+  font-weight: 800;
+}
+.merock_text p{
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  word-break: break-all;
+}
+.morockr_pad{
+  padding-right: 40px;
+}
+.merock_img img{
+  height: 300px;
+}
+.merock_video{}
+.merock_video p{
+  font-size: 8px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  word-break: break-all;
+}
+.merock_pad{
+  padding: 20px;
+  background-color: #d5d5d5;
+  border-radius: 20px;
+}
+.merock_stext h2{
+  font-size: 29px;
+  color: var(--contentColor);
+  font-weight: 800;
+  text-align: center;
+}
+.merock_stext p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  word-break: break-all;
+}
+/*merock end*/
+/*title start*/
+.title{
+  background-color: #011329;
+}
+.title h1{
+  padding: 10px 0px;
+  font-size: 60px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+/*title end*/
+/*card start*/
+.radius{
+  border: 4px solid #eeba2b;
+  border-radius: 20px;
+}
+/*card end*/
+/*leading start*/
+.leading{
+  background-color: #d5d5d5;
+  padding: 40px 0px;
+  margin: 48px 0px;
+}
+.leading h2{
+  font-size: 35px;
+  color: var(--contentColor);
+  font-weight: 800;
+  text-align: center;
+}
+.leading p{
+    font-size: 25px;
+    color: var(--contentColor);
+    font-weight: 500;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    word-break: break-all;
+}
+/*leading end*/
+/*media start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  .merock_text h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .merock_text p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .merock_text {
+     padding-right: 0px; 
+  }
+  .morockr_pad {
+    padding-right: 0px;
+  }
+  .merock_img{
+    padding-bottom: 20px;
+  }
+  .title h1 {
+    font-size: 35px;
+  }
+  .common-block-card .card h3, .makeup-block h3, .contact-block h3 {
+    font-size: 23px !important;
+  }
+  .leading h2 {
+    font-size: 24px;
+  }
+  .leading p {
+    font-size: 23px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  .merock_text h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .merock_text p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .merock_text {
+     padding-right: 0px; 
+  }
+  .morockr_pad {
+    padding-right: 0px;
+  }
+  .merock_img{
+    padding-bottom: 20px;
+  }
+  .title h1 {
+    font-size: 35px;
+  }
+  .common-block-card .card h3, .makeup-block h3, .contact-block h3 {
+    font-size: 23px !important;
+  }
+  .leading h2 {
+    font-size: 30px;
+  }
+  .leading p {
+    font-size: 23px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner_text h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  .merock_text h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .merock_text p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .merock_text {
+     padding-right: 0px; 
+  }
+  .morockr_pad {
+    padding-right: 0px;
+  }
+  .merock_img{
+    padding-bottom: 20px;
+  }
+  .title h1 {
+    font-size: 35px;
+  }
+  .common-block-card .card h3, .makeup-block h3, .contact-block h3 {
+    font-size: 23px !important;
+  }
+  .leading h2 {
+    font-size: 30px;
+  }
+  .leading p {
+    font-size: 23px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  
+}

@@ -1,0 +1,455 @@
+/*banner start*/
+.banner{
+  background: var(--contentColor);
+  overflow: hidden;
+  position: relative;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.banner_text{
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+}
+.banner_text h1{
+/*  padding-top: 190px;*/
+  font-size: 42px;
+  font-weight: 900;
+  color: var(--nameColor);
+  z-index: 1;
+}
+.banner_text p{
+  color: var(--whiteColor);
+  font-size: 22px;
+  font-weight: 700;
+  z-index: 2;
+}
+.banner_video{
+  
+}
+.banner_video video{
+  border: 4px solid #eeba2b;
+  border-radius: 20px;
+}
+/*banner end */
+/*ceo design start*/
+html {
+  background: #FAF7F2;
+  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.u-clearfix:before,
+.u-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.u-clearfix:after {
+  clear: both;
+}
+
+.u-clearfix {
+  *zoom: 1;
+}
+
+.subtle {
+  color: #aaa;
+}
+
+.card-container {
+  margin: 25px auto 0;
+  position: relative;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+  z-index: 1;
+}
+
+.card-body {
+  display: inline-block;
+  float: left;
+}
+
+.card-number {
+  margin-top: 15px;
+}
+
+.card-circle {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 22px;
+  font-size: 12px;
+  height: 25px;
+  text-align: center;
+  width: 25px;
+}
+
+.card-author {
+  display: block;
+  font-size: 12px;
+  letter-spacing: .5px;
+  margin: 15px 0 0;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+.card-description {
+  display: inline-block;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.card-read {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin: 5px 0 20px;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.card-read:after {
+  background-color: #b8bddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+  width: 75%;
+}
+
+.card-tag {
+  float: right;
+  margin: 5px 0 0;
+}
+
+.card-media {
+  float: right;
+}
+
+.card-shadow {
+  background-color: #fff;
+  box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
+  height: 1px;
+  margin: -1px auto 0;
+  width: 80%;
+  z-index: -1;
+}
+/*ceo design end*/
+/*card start*/
+.title {
+  background-color: #011329;
+}
+.title h1 {
+  padding: 10px 0px;
+  font-size: 50px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+:root{
+  --bg: #011329;
+}
+.body-content h3{
+/*  font-size: 29px;*/
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+.body-content p {
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.body-content {
+  background-color: #011329;
+  padding: 0 20px;
+  position: relative;
+  border: 1px solid var(--bg);
+  border-top: none;
+  z-index: 1;
+  line-height: 23px;
+  color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.body-content:before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -1px;
+  width: 100%;
+  height: 105px;
+  background-color: #011329;
+  border-left: 1px solid var(--bg);
+  border-right: 1px solid var(--bg);
+  transform: skewY(13deg);
+  z-index: -1;
+  box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.4);
+}
+.grid-container{
+  transition: 0.33s;
+}
+.grid-container:hover{
+  transform: scale(0.95);
+}
+.grid-col img{
+  height: 250px;
+}
+.spad1{
+  padding-bottom: 80px;
+}
+.spad2{
+  padding-bottom: 80px;
+}
+.spad3{
+  padding-bottom: 25px;
+}
+/*card end*/
+/*vision start*/
+.vision{
+  padding: 50px 0px;
+}
+.vision_details{}
+.vision_details h1{
+  font-size: 60px;
+  color: var(--contentColor);
+  font-weight: 800;
+  text-transform: uppercase;
+/*  text-align: center;*/
+}
+.vision_details h3{
+  font-size: 29px;
+  color: var(--contentColor);
+  font-weight: 500;
+/*  text-align: center;*/
+  border-bottom: 4px solid var(--contentColor);
+}
+.vision_details p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+/*vision end*/
+/*trust start*/
+.trust{
+    background-color: #f5f5f8;
+}
+.trust_p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: center;
+}
+/*trust end*/
+/*core start*/
+.core{
+  padding: 60px 0px;
+  background-color: var(--contentColor);
+}
+.core h1{
+  font-size: 60px;
+  color: white;
+  font-weight: 800;
+  padding: 10px 0px;
+}
+.core_text{
+  padding: 20px;
+  background-color: white;
+  border: 4px solid #eeba2b;
+  border-radius: 30px;
+  transition: 0.33s;
+  margin-bottom: 15px;
+}
+.core_text:hover{
+  transform: scale(0.95);
+}
+.core_text h2{
+  font-size: 29px;
+  color: var(--contentColor);
+  font-weight: 800;
+  text-align: center;
+}
+.core_text p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+  text-align: center;
+}
+/*core end*/
+/*media start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .banner_text h1 {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .banner {
+    padding: 59px 10px;
+  }
+/* ceo */
+  .card-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .cpad{
+    padding-left: 0;
+    padding-right: 0;
+  }
+/*  card*/
+  .title h1 {
+    font-size: 25px;
+  }
+/*  vision */
+  .vision_details h1 {
+    font-size: 45px;
+  }
+  .vision_details h3 {
+    font-size: 25px;
+  }
+  .vision{
+    padding: 20px 0px;
+  }
+/*  core start*/
+  .core h1 {
+    font-size: 50px;
+  }
+  .core_img{
+    margin-bottom: 15px;
+  }
+  .core_text h2 {
+    font-size: 25px;
+  }
+  .core_text p {
+    font-size: 18px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  /*  card*/
+  .title h1 {
+    font-size: 30px;
+  }
+  .body-content:before {
+    height: 110px;
+  }
+  /*  vision */
+  .vision_details h1 {
+    font-size: 45px;
+  }
+  .vision_details h3 {
+    font-size: 25px;
+  }
+  .vision{
+    padding: 20px 0px;
+  }
+/*  core start*/
+  .core_img{
+    margin-bottom: 15px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner_text h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  /*  card*/
+  .title h1 {
+    font-size: 35px;
+  }
+  .body-content h3 {
+    font-size: 30px;
+  }
+  .body-content p {
+    font-size: 20px;
+  }
+  /*  vision */
+  .vision_details h1 {
+    font-size: 40px;
+  }
+  .vision_details h3 {
+    font-size: 25px;
+  }
+  .vision{
+    padding: 20px 0px;
+  }
+/*  vision end*/
+/*  core start*/
+  .core_img{
+    margin-bottom: 15px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .spad3 {
+    padding-bottom: 48px;
+  }
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  .spad3 {
+    padding-bottom: 48px;
+  }
+}
+
+

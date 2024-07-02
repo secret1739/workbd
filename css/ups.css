@@ -1,0 +1,146 @@
+:root{
+  --green:#579b8e;
+}
+/*banner start*/
+
+/*banner end */
+/*driving start*/
+.driving{}
+.driving p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+.driving h2{
+  font-size: 30px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+/*driving end*/
+/*common start*/
+.common{}
+.common h1{
+  font-size: 30px;
+  color: var(--green);
+  font-weight: 800;
+}
+.common p{
+  font-size: 20px;
+  color: var(--contentColor);
+  font-weight: 500;
+}
+.common ul li{
+  font-size: 25px;
+  color: var(--contentColor);
+  font-weight: 800;
+}
+/*common start*/
+
+/*media start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner_text h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner_text h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .banner_text p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .brow {
+    padding-top: 50px;
+  }
+  .loreal {
+    padding: 60px 0px;
+  }
+  .s_loreal h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .s_loreal p {
+    font-size: 23px;
+    text-align: center;
+  }
+  .img_loreal{
+    margin-bottom: 40px;
+  }
+  
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  
+}
